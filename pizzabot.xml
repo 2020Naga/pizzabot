@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <message>Hi sir Goodmorning</message>
+	    <pattern>show me the  Menu</pattern>
+	    <template>
+	        Hello sir ,welcome to Pizza Hut
+	        1.Baby corn pizza
+	        2.cheese N corn pizza
+	        3.Panir pizza
+	        4.chicken pizza
+	    </template>
+	 </category> 
+	 
+	 <category>
+	     <message>sir, Please tell me  your order</message>
+	     <pattern>I want cheese N corn pizza </pattern>
+	     <template> sir! Anything Else</template>
+	 </category>
+	 
+	 <category>
+	     <pattern>I am ok No Thanks</pattern>
+	     <template>Thats fine sir can you conform your address</template>
+	 </category>
+	 
+	 <category>
+	     <pattern> flat no:123 provident welworth city, Bangalore</pattern>
+	     <template> Thank you sir your order is delever in 20 min
+	              Thanks for your order enjoy the day
+	              
+
+	     </template>
+	 </category>
+</aiml>
